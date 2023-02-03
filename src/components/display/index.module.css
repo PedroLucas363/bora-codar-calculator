@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  height: 86px;
+
+  padding: 0 18px 0 22px;
+}
+
+.calculation {
+  height: 28px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  letter-spacing: -0.02em;
+
+  color: var(--light-gray);
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0px;
+
+  width: 248px;
+  height: 50px;
+}
+
+.total {
+  width: 100%;
+  max-width: 228px;
+  text-align: right;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 140%;
+  /* or 50px */
+
+  letter-spacing: -0.02em;
+
+  color: #ebebeb;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  direction: rtl;
+}
